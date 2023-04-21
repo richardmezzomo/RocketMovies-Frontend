@@ -10,9 +10,9 @@ export const Container = styled.header `
     border-bottom-color: ${({theme}) => theme.COLORS.GRAY_200};
 
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 
-    padding: clamp(0rem, 3vw, 12.3rem);
+    padding: 0 12.3rem;
 
     > h1 {
         color: ${({theme}) => theme.COLORS.PINK};
@@ -28,7 +28,7 @@ export const Container = styled.header `
         background: ${({theme}) => theme.COLORS.BACKGROUND_700};
         color: ${({theme}) => theme.COLORS.GRAY_100};
 
-        width: clamp(20rem, 40vw, 63rem);
+        width: 45%;
     }
 `
 
