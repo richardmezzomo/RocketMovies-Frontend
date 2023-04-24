@@ -8,7 +8,7 @@ export function Header() {
       <Profile>
         <div>
           <strong>Richard Mezzomo</strong>
-          <span>sair</span>
+          <a href=""><span>sair</span></a>
         </div>
 
         <img src="https://github.com/richardmezzomo.png" alt="Foto do Usuário" />
