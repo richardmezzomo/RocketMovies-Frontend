@@ -10,7 +10,6 @@ export function Header() {
           <strong>Richard Mezzomo</strong>
           <a href=""><span>sair</span></a>
         </div>
-
         <img src="https://github.com/richardmezzomo.png" alt="Foto do Usuário" />
       </Profile>
     </Container>
