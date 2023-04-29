@@ -41,4 +41,14 @@ export const Content = styled.div`
         text-align: justify;
         padding-bottom: 2.4rem;
     }
+
+    > div {
+        margin-bottom: 4rem;
+    }
+
+    > div.title {
+        display: flex;
+        align-items: center;
+        gap: 1.9rem;
+    }
 `
