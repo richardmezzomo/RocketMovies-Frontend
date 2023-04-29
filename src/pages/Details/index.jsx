@@ -5,6 +5,7 @@ import { HiArrowLeft } from "react-icons/hi";
 import { Header } from '../../components/Header' // Importa o componente Header
 import { LinkBack } from '../../components/LinkBack' // Importa o componente LinkBack
 import { Tag } from '../../components/Tag' // Importa o componente Tag
+import { Rating } from '../../components/Rating';
 
 export function Details() {
   return (
@@ -13,7 +14,15 @@ export function Details() {
       <main>
         <Content>
           <LinkBack to="/"><HiArrowLeft />Voltar</LinkBack>
+          <div className="title">
           <h1>Interestellar</h1>
+          <Rating grade={4} isBigSize={true} />
+          </div>
+          <div>
+            <Tag value="Ficção Científica" />
+            <Tag value="Drama" />
+            <Tag value="Família" />
+          </div>
           <p>
             Pragas nas colheitas fizeram a civilização humana regredir para uma sociedade agrária em futuro de data desconhecida. Cooper, ex-piloto da NASA, tem uma fazenda com sua família. Murphy, a filha de dez anos de Cooper, acredita que seu quarto está assombrado por um fantasma que tenta se comunicar com ela. Pai e filha descobrem que o "fantasma" é uma inteligência desconhecida que está enviando mensagens codificadas através de radiação gravitacional, deixando coordenadas em binário que os levam até uma instalação secreta da NASA liderada pelo professor John Brand. O cientista revela que um buraco de minhoca foi aberto perto de Saturno e que ele leva a planetas que podem oferecer condições de sobrevivência para a espécie humana. As "missões Lázaro" enviadas anos antes identificaram três planetas potencialmente habitáveis orbitando o buraco negro Gargântua: Miller, Edmunds e Mann – nomeados em homenagem aos astronautas que os pesquisaram. Brand recruta Cooper para pilotar a nave espacial Endurance e recuperar os dados dos astronautas; se um dos planetas se mostrar habitável, a humanidade irá seguir para ele na instalação da NASA, que é na realidade uma enorme estação espacial. A partida de Cooper devasta Murphy. 
           </p>
