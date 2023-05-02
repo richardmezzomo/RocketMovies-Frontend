@@ -19,7 +19,7 @@ export const Container = styled.div`
 `
 
 export const Content = styled.div`
-    max-width: 111.3rem;
+    padding: 0 12.3rem ;
     margin: 0 auto;
 
     display: flex;
@@ -31,8 +31,9 @@ export const Content = styled.div`
 
     > h1 {
         font-size: 3.6rem;
+        line-height: 4.7rem;
         font-weight: 500;
-        padding: 2.4rem 0;   
+        padding: 2.4rem 0;
     }
 
     > p {
