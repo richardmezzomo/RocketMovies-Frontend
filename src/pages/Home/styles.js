@@ -14,4 +14,7 @@ export const NewMovie = styled.div`
         width: 20.7rem;
     }
 `
-export const Content = styled.div``
+export const Content = styled.div`
+    padding: 0 12.3rem ;
+    
+`
