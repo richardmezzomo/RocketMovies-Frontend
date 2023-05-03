@@ -1,7 +1,7 @@
 import { Container } from "./styles";
 
-export function Tag({ value }) {
+export function Tag({ value, backgroundColor }) {
   return (
-    <Container>{value}</Container>
+    <Container style={{ backgroundColor }}>{value}</Container>
   ) 
 }
