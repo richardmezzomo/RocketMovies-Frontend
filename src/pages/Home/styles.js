@@ -10,14 +10,20 @@ export const NewMovie = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-bottom: 3.5rem;
+    padding: 4.8rem 12.3rem 0;
     > button {
         width: 20.7rem;
+        font-size: 1.6rem;
+        display: flex;
+        gap: .8rem;
+        align-items: center;
+        justify-content: center;
+        color: ${({ theme }) => theme.BACKGROUND_800};
+
     }
 `
 export const Content = styled.div`
-    padding: 0 12.3rem;
-    margin-top: 4.5rem;
+    padding: 3.8rem 12.3rem 5.8rem;
 `
 
 export const Cards = styled.div`
