@@ -10,7 +10,7 @@ export function Card ({ data, ...rest }) {
         <p>{data.description}</p>
         <footer>
           {
-            data.tags.map(tag => <Tag key={tags.id} value={tag.name} />)
+            data.tags.map(tag => <Tag key={tag.id} value={tag.name} backgroundColor={"#312E38"} />)
           }        
         </footer>
     </Container>

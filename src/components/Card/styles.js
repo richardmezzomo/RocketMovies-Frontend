@@ -6,21 +6,24 @@ export const Container = styled.button`
     background-color: ${({ theme }) => theme.COLORS.PINK_300};
     padding: 3.2rem;
     border-radius: 1.6rem;
+    border: none;
 
     > h1 {
+      color: ${({ theme }) => theme.COLORS.WHITE};
       font-size: 2.4rem;
       line-height: 3.2rem;
       margin-bottom: .8rem;
     }
 
-		> p {
-			font-size: 1.6rem;
+		> p {			
+      font-size: 1.6rem;
+      line-height: 1.9rem;
 			color: #999591;
       margin: 1.5rem 0;
+      text-align: justify;
 		}
-`
 
-export const Tags = styled.div`
-    display: flex;
-    flex-direction: row;
+    > footer {
+      margin-top: 2rem;
+    }
 `
