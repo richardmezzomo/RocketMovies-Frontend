@@ -16,9 +16,7 @@ export function Home() {
           </NewMovie>
         <Content>
           <Cards>
-            <Card /> 
-            <Card /> 
-            <Card /> 
+            < Card />
           </Cards>
         </Content>
       </Container>
