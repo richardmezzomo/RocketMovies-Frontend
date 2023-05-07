@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-    width: 100%;
+    width: 100vw;
     height: 100vh;
-
     background-color: ${({ theme }) => theme.COLORS.BACKGROUND_800};
 `
 export const NewMovie = styled.div`
@@ -23,11 +22,14 @@ export const NewMovie = styled.div`
     }
 `
 export const Content = styled.div`
-    padding: 3.8rem 12.3rem 5.8rem;
+    padding: 3.8rem 12.3rem 5.8rem;    
+    
 `
 
 export const Cards = styled.div`
     display: flex;
     flex-direction: column;
     gap: 2.4rem;
+    height: 71.6rem;
+    overflow: auto;
 `

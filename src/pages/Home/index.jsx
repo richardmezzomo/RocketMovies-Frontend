@@ -42,7 +42,7 @@ export function Home() {
                 {id: 2, name: 'Drama'},    
                 { id: 3, name: 'Família' }     
               ]
-              }}/>
+              }}/>              
           </Cards>
         </Content>
       </Container>

@@ -7,6 +7,7 @@ export const Container = styled.button`
     padding: 3.2rem;
     border-radius: 1.6rem;
     border: none;
+    text-align: left;
 
     > h1 {
       color: ${({ theme }) => theme.COLORS.WHITE};
