@@ -19,17 +19,6 @@ export const Container = styled.header `
         font-size: 2.4rem;
         align-self: center;
     }
-
-    > #search {
-        align-self: center;
-        padding: 1.9rem 2.4rem;
-        border-radius: 1rem;
-        border: none;
-        background: ${({theme}) => theme.COLORS.BACKGROUND_700};
-        color: ${({theme}) => theme.COLORS.GRAY_100};
-
-        width: 45%;
-    }
 `
 
 export const Profile = styled.div `
@@ -56,6 +45,13 @@ export const Profile = styled.div `
         strong {
             font-size: 1.4rem;
             color: ${({theme}) => theme.COLORS.WHITE};
+            display: inline-block;
         }
     }
+`
+
+export const Search = styled.div `
+    width: 65%;
+    display: flex;
+    align-items: center;
 `

@@ -1,10 +1,13 @@
-import { Container, Profile } from "./styles";
+import { Container, Profile, Search } from "./styles";
+import { Input } from "../Input";
 
 export function Header() {
   return (
     <Container>
       <h1>RocketMovies</h1>
-      <input type="text" name="search" id="search" placeholder="Pesquisar pelo título" />
+      <Search>
+        <Input placeholder="Pesquisar pelo título" />
+      </Search>
       <Profile>
         <div>
           <strong>Richard Mezzomo</strong>
