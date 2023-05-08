@@ -4,10 +4,10 @@ import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { LinkBack } from '../../components/LinkBack';
 
-import { HiOutlineMail } from "react-icons/hi";
-import { FiLock } from "react-icons/fi";
+import { HiOutlineMail, HiArrowLeft } from "react-icons/hi";
+import { FiLock, FiUser } from "react-icons/fi";
 
-export function SignIn() {
+export function SignUp() {
   return (
     <Container>
 
@@ -15,7 +15,13 @@ export function SignIn() {
         <h1>RocketMovies</h1>
         <p>Aplicação para acompanhar tudo que assistir.</p>
 
-        <h2>Faça seu login</h2>
+        <h2>Crie sua conta</h2>
+
+        < Input 
+          placeholder="Nome" 
+          type="text"
+          icon={FiUser}  
+        />
 
         < Input 
           placeholder="E-mail" 
@@ -29,10 +35,10 @@ export function SignIn() {
           icon={FiLock}  
         />
       
-        <Button>Entrar</Button>
+        <Button>Cadastrar</Button>
       
 
-        <LinkBack to="#">Criar conta</LinkBack>
+        <LinkBack to="#"><HiArrowLeft />Voltar para o login</LinkBack>
 
 
         
