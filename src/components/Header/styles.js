@@ -2,12 +2,10 @@ import styled from "styled-components";
 
 export const Container = styled.header `
     grid-area: header;
-    /* height: 11.6rem; */
+    height: 11.6rem;
     width: 100%;
 
-    border-bottom-width: .1rem;
-    border-bottom-style: solid;
-    border-bottom-color: ${({theme}) => theme.COLORS.GRAY_200};
+    border-bottom: 1px solid ${({theme}) => theme.COLORS.GRAY_200};
 
     display: flex;
     justify-content: space-between;
