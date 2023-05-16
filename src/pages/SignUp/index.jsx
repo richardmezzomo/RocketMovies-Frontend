@@ -35,7 +35,7 @@ export function SignUp() {
           icon={FiLock}  
         />
       
-        <Button>Cadastrar</Button>
+        <Button backgroundColor={"#FF859B"} color={"#312E38"}>Cadastrar</Button>
       
 
         <LinkBack to="#"><HiArrowLeft />Voltar para o login</LinkBack>

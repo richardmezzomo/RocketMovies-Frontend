@@ -29,7 +29,7 @@ export function SignIn() {
           icon={FiLock}  
         />
       
-        <Button>Entrar</Button>
+        <Button backgroundColor={"#FF859B"} color={"#312E38"}>Entrar</Button>
       
 
         <LinkBack to="#">Criar conta</LinkBack>

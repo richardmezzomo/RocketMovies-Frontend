@@ -52,7 +52,7 @@ export function Profile() {
           icon={FiLock}  
         />
 
-        <Button>Salvar</Button>
+        <Button backgroundColor={"#FF859B"} color={"#312E38"}>Salvar</Button>
       </Form>
     </Container>
   );
