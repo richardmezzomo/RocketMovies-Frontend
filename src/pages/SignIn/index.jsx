@@ -1,5 +1,7 @@
 import { Container, Form, Background } from './styles';
 
+import { Link } from 'react-router-dom';
+
 import { Input } from '../../components/Input';
 import { Button } from '../../components/Button';
 import { LinkBack } from '../../components/LinkBack';
@@ -32,7 +34,7 @@ export function SignIn() {
         <Button backgroundColor={"#FF859B"} color={"#312E38"}>Entrar</Button>
       
 
-        <LinkBack to="#">Criar conta</LinkBack>
+        <Link to="/register">Criar conta</Link>
 
 
         

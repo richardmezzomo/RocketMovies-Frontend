@@ -4,7 +4,7 @@ import { HiArrowLeft } from "react-icons/hi";
 
 
 import { Header } from '../../components/Header' // Importa o componente Header
-import { LinkBack } from '../../components/LinkBack' // Importa o componente LinkBack
+import { Link } from 'react-router-dom'
 import { Tag } from '../../components/Tag' // Importa o componente Tag
 import { CreatedAt } from '../../components/CreatedAt';
 import { Rating } from '../../components/Rating';
@@ -14,7 +14,7 @@ export function Details() {
     <Container>
       <Header/>
         <Content>
-          <LinkBack to="/"><HiArrowLeft />Voltar</LinkBack>
+          <Link to="/"><HiArrowLeft />Voltar</Link>
           <div className="title">
           <h1>Interestellar</h1>
           <Rating grade={4} isBigSize={true} />

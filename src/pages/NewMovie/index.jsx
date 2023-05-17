@@ -1,5 +1,5 @@
 import { Header } from "../../components/Header";
-import { LinkBack } from "../../components/LinkBack";
+import { Link } from "react-router-dom";
 import { Input } from "../../components/Input";
 import { Textarea } from "../../components/Textarea";
 import { Highlighter } from "../../components/Highlighter";
@@ -17,7 +17,7 @@ export function NewMovie() {
       <main>
         <Form>
           <header>
-            <LinkBack to="/"><HiArrowLeft />Voltar</LinkBack>
+            <Link to="/"><HiArrowLeft />Voltar</Link>
             <h1>Novo filme</h1>
           </header>
           <div>

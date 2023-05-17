@@ -11,19 +11,21 @@ export const Container = styled.div`
         "header"
         "content";
 
-    > main {
-        grid-area: content;
-        overflow-y: scroll;
-        padding: 3.8rem 0;
-    }
+
+        
 `
 
 export const Content = styled.div`
-    padding: 0 12.3rem ;
+    padding: 3.8rem 12.3rem ;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
+    
+    grid-area: content;
+    overflow-y: scroll;
+
+    
 
     div:first-child {
         align-self: flex-start;
@@ -51,5 +53,13 @@ export const Content = styled.div`
         display: flex;
         align-items: center;
         gap: 1.9rem;
+    }
+
+    > a {
+      color: ${({theme}) => theme.COLORS.PINK};
+      display: flex;
+      align-items: center;
+      gap: .1rem;
+      padding-bottom: 2.4rem;
     }
 `

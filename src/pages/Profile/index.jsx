@@ -1,7 +1,7 @@
 import { HiOutlineMail, HiArrowLeft } from "react-icons/hi";
 import { FiCamera, FiLock, FiUser} from "react-icons/fi";
 
-import { LinkBack } from '../../components/LinkBack'
+import { Link } from 'react-router-dom'
 import { Input } from '../../components/Input'
 import { Button } from '../../components/Button'
 
@@ -11,7 +11,7 @@ export function Profile() {
   return (
     <Container>
       <header>
-        <LinkBack to="/"><HiArrowLeft />Voltar</LinkBack>
+        <Link to="/"><HiArrowLeft />Voltar</Link>
       </header>
       <Form>
         <Avatar>

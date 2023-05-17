@@ -47,6 +47,13 @@ export const Form = styled.form`
   > button {
     margin: 2.4rem 4.8rem;
   }
+
+  > a {
+    color: ${({theme}) => theme.COLORS.PINK};
+    display: flex;
+    align-items: center;
+    gap: .1rem;
+  }
 `
 
 export const Background = styled.div`

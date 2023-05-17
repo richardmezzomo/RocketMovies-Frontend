@@ -9,4 +9,4 @@ export function Routes() {
       <AuthRoutes />
     </BrowserRouter>
   )
-}
+} 

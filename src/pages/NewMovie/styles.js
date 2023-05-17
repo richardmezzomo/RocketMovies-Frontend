@@ -34,6 +34,13 @@ export const Form = styled.form`
     flex-direction: column;
     gap: 2.4rem;
     margin-bottom: 4rem;
+
+    > a {
+      color: ${({theme}) => theme.COLORS.PINK};
+      display: flex;
+      align-items: center;
+      gap: .1rem;
+    }
   }
 
   > div {
@@ -47,4 +54,7 @@ export const Form = styled.form`
     margin-bottom: 2.4rem;
     color: ${({ theme }) => theme.COLORS.GRAY_100};
   }
+
+  
 `
+
